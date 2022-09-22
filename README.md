@@ -1,6 +1,6 @@
 # hexo-dynamic-config
 
-A hexo plugin for insert variable to configuration.
+A hexo plugin for using variable in configuration.
 for example, you can use environment variable in your `_config.yml`
 
 ## Install
