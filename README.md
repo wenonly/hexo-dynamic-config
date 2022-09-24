@@ -14,17 +14,17 @@ Or installing with yarn? yarn add hexo-dynamic-config
 
 ## Usage
 
-| 变量 | 描述                           |
-| ---- | ------------------------------ |
-| env  | 项目运行的环境变量 process.env |
-| hexo | hexo 实例                      |
+| key  | description                      |
+| ---- | -------------------------------- |
+| env  | environment variable process.env |
+| hexo | hexo instance                    |
 
 ### Using environment variable
 
 You can create a `.env` file in the root of your project:
 
-```dosini
-FTP_SECRET: YOURFTPSECRET
+```shell
+FTP_SECRET=YOURFTPSECRET
 ```
 
 Fill your project configuration `_config.yml` like this:
